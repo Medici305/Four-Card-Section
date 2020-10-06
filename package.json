@@ -1,0 +1,19 @@
+{
+  "name": "four-card-section-page",
+  "version": "1.0.0",
+  "description": "Developer code for the foure card feature section",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Medici305/Four-Card-Section.git"
+  },
+  "author": "Medici",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Medici305/Four-Card-Section/issues"
+  },
+  "homepage": "https://github.com/Medici305/Four-Card-Section#readme"
+}
