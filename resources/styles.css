@@ -1,3 +1,30 @@
+/*
+    # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+*/
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +32,8 @@
 }
 
 html {
-
+    font-size: 15px;
+    font-family: poppins;
 }
 
 /* Sections */
@@ -17,8 +45,7 @@ html {
 }
 
 .text {
-    background: beige;
-    border: 2px solid black;
+    background: hsl(0, 0%, 98%);
     height: 100%;
     width: 70%;
     margin: auto;
@@ -34,13 +61,22 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    border: 2px solid yellow;
     height: 100%;
+    color: hsl(234, 12%, 34%);
 }
 
 
 h1 {
-    border: 2px solid blue;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+#thicker {
+    font-weight: 600;
+}
+
+#thinner {
+    display: block;
 }
 
 h1 span {
@@ -48,7 +84,10 @@ h1 span {
 }
 
 h4 {
-    border: 2px solid blue;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 
