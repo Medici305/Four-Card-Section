@@ -139,13 +139,45 @@ h4 {
 .individual-cards {
     border: 2px dotted red;
     width: 90%;
-    height: 50%;
+    height: 45%;
+    padding: 10px 40px;
 }
 
 .top-bottom-cards {
     border: 2px dotted red;
     width: 90%;
     height: 90%;
+    padding: 10px 40px;
+}
+
+.top-bottom-cards h2 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.top-bottom-cards p {
+    color: hsl(229, 6%, 66%);
+    font-weight: 500;
+}
+
+.top-bottom-cards img {
+    margin-top: 40px;
+    float: right;
+}
+
+.individual-cards h2 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.individual-cards p {
+    color: hsl(229, 6%, 66%);
+    font-weight: 500;
+}
+
+.individual-cards img {
+    margin-top: 40px;
+    float: right;
 }
 /* Sections */
 /* Sections */
